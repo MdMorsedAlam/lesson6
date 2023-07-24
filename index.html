@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tea House</title>
+    <title>Tea House With DaisyUI</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <!-- Taileind & Daisy UI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
@@ -83,7 +84,7 @@
           <h3 class="font-extrabold text-3xl md:text-4xl text-heading-color">
             Our Featured Products
           </h3>
-          <p class="text-base font-medium text-description-color">
+          <p class="text-base font-medium text-description-color px-4">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, <br />
             by injected humour, or randomised words which don't look even
@@ -150,7 +151,8 @@
           </div>
         </div>
       </section>
-      <section class="py-24">
+      <!-- Great Tea Section -->
+      <section class="mt-24">
         <div
           class="flex gap-8 flex-col md:flex-row justify-between items-center"
         >
@@ -200,7 +202,8 @@
           </div>
         </div>
       </section>
-      <section class="pb-24">
+      <!-- Clients Section -->
+      <section class="my-24">
         <div
           class="flex justify-between items-center flex-col lg:flex-row bg-gradient-to-r from-gradient-start to-gradient-end p-3 md:p-20"
         >
@@ -289,8 +292,159 @@
           </div>
         </div>
       </section>
+      <!-- Events Section -->
+      <section class="mb-24">
+        <!-- Heading -->
+        <div class="text-center">
+          <h3 class="font-extrabold text-3xl md:text-4xl text-heading-color">
+            News & Events
+          </h3>
+          <p class="text-base font-medium text-description-color mb-12 px-4">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, <br />
+            by injected humour, or randomised words which don't look even
+            slightly believable.
+          </p>
+        </div>
+        <!-- Events Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- First Event -->
+          <div class="card bg-base-100 border">
+            <figure class="px-8 pt-8">
+              <img
+                src="./images/news-1.png"
+                alt="news-1.png"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body">
+              <p class="text-base font-medium text-description-color">
+                July 25, 2024
+              </p>
+              <h2 class="font-extrabold text-xl text-heading-color">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-base font-medium text-description-color">
+                There are many variations of passages of <br />
+                Lorem Ipsum available.
+              </p>
+              <p class="text-base text-heading-color font-bold">
+                <a href="">Learn More</a>
+              </p>
+            </div>
+          </div>
+          <!-- Second Event -->
+          <div class="card bg-base-100 border">
+            <figure class="px-8 pt-8">
+              <img
+                src="./images/news-2.png"
+                alt="news-2.png"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body">
+              <p class="text-base font-medium text-description-color">
+                July 25, 2024
+              </p>
+              <h2 class="font-extrabold text-xl text-heading-color">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-base font-medium text-description-color">
+                There are many variations of passages of <br />
+                Lorem Ipsum available.
+              </p>
+              <p class="text-base text-heading-color font-bold">
+                <a href="">Learn More</a>
+              </p>
+            </div>
+          </div>
+          <!-- Third Event -->
+          <div class="card bg-base-100 border">
+            <figure class="px-8 pt-8">
+              <img
+                src="./images/news-3.png"
+                alt="news-3.png"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body">
+              <p class="text-base font-medium text-description-color">
+                July 25, 2024
+              </p>
+              <h2 class="font-extrabold text-xl text-heading-color">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-base font-medium text-description-color">
+                There are many variations of passages of <br />
+                Lorem Ipsum available.
+              </p>
+              <p class="text-base text-heading-color font-bold">
+                <a href="">Learn More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <!-- Footer Section -->
+    <footer class="bg-base-200">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center flex-col md:flex-row pt-12">
+          <img src="./images/cup.png" alt="">
+          <div class="flex justify-center items-center gap-8">
+            <p class="text-xl font-medium text-[#494949]">Ready to get strated?</p>
+            <button
+            class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end"
+          >
+          Get Started
+          </button>
+          </div>
+        </div>
+        <div
+          class="footer pt-6 flex justify-between flex-col items-center md:flex-row"
+        >
+          <div>
+            <span class="text-xl font-semibold text-heading-color">Quick Links</span>
+            <a class="link link-hover text-[#494949] text-base font-normal">Home</a>
+            <a class="link link-hover text-[#494949] text-base font-normal">About Us</a>
+            <a class="link link-hover text-[#494949] text-base font-normal">Insurance</a>
+            <a class="link link-hover text-[#494949] text-base font-normal">Privacy Policy</a>
+          </div>
+          <div>
+            <span class="text-xl font-semibold text-heading-color">Our Service</span>
+            <a class="link link-hover text-[#494949] text-base font-normal">Life Insurance</a>
+            <a class="link link-hover text-[#494949] text-base font-normal">Car Insurance</a>
+            <a class="link link-hover text-[#494949] text-base font-normal">Health Insurance</a>
+            <a class="link link-hover text-[#494949] text-base font-normal">House Insurance</a>
+          </div>
+          <div>
+            <span class="text-xl font-semibold text-heading-color">Help</span>
+            <a class="link link-hover text-[#494949] text-base font-normal">FAQs</a>
+            <a class="link link-hover text-[#494949] text-base font-normal">Contact Us</a>
+          </div>
+          <div>
+            <span class="text-xl font-semibold text-heading-color">Subscribe to our <br> newsletter</span>
+            <div class="form-control">
+              <div class="relative">
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  class="bg-transparent border-b-2 border-[#494949] py-3"
+                />
+                <button
+                  class="bg-gradient-to-r from-gradient-start to-gradient-end absolute rounded-full right-0 bottom-3"
+                >
+                <img class="h-6 w-6" src="images/right.png" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center py-6 text-xs font-medium text-description-color">
+          Copyright &copy; 2023 - All right reserved by Morsed
+        </p>
+      </div>
+    </footer>
     <!-- font awesome -->
     <script
       src="https://kit.fontawesome.com/03bbc4e9c6.js"
